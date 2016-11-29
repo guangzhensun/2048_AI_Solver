@@ -26,6 +26,11 @@ I have kept the code here as it has room for improvement.
 #### Total Score
 The total score is the sum of the snake score and empty tile score.
 
+## Performance
+The AI can reach 2048 about 30% of the time. The best score I have obtained is 4096 + 2048.
+There is room for improvement by using a deeper search tree (though this might impractical in Python).
+Other heuristic might also give better performance.
+
 ## HOW TO RUN
 To run, type the command:
 $ python GameManager.py
